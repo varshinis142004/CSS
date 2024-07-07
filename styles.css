@@ -1,0 +1,32 @@
+/* All elements should have Arial, sans-serif as the font family */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* All paragraphs (<p>) should have blue text */
+p {
+    color: blue;
+}
+
+/* Paragraphs with the class intro should have a font size of 16px */
+p.intro {
+    font-size: 16px;
+}
+
+/* The div with the ID container should have a padding and margin of 20px and a solid black border */
+#container {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+/* Paragraphs with the class special should have red text */
+p.special {
+    color: red;
+}
+
+/* Links (<a>) with the class link should have no text-decoration and green text */
+a.link {
+    text-decoration: none;
+    color: green;
+}
